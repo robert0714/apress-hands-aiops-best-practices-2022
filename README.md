@@ -18,8 +18,16 @@ Anaconda is a Python distribution and made for large data processing, predictive
 * [Managing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 # Chapter 6 AIOps Use Case: Deduplication
+* Open cmd:
 ```
 git clone https://github.com/robert0714/apress-hands-aiops-best-practices-2022
 cd  apress-hands-aiops-best-practices-2022
 jupyter notebook Ch-6_Deduplication.ipynb
 ```
+* You can modify the file: `Ch-6_Deduplication.ipynb`
+    ```python
+    df_dedup = df_dedup.sort_values(by="Count", ascending=False);
+    df_dedup[:10].plot.bar(  y="Count", x="Host"  );
+    plt.title("Top 10 host with most de-duplications", y=1.02);
+    # df_dedup
+    ```
