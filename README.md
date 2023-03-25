@@ -26,8 +26,31 @@ jupyter notebook Ch-6_Deduplication.ipynb
 ```
 * You can modify the file: `Ch-6_Deduplication.ipynb`
     ```python
-    df_dedup = df_dedup.sort_values(by="Count", ascending=False);
-    df_dedup[:10].plot.bar(  y="Count", x="Host"  );
-    plt.title("Top 10 host with most de-duplications", y=1.02);
+    df_dedup[:10].plot(kind="bar", by="Count", x="Host")
+    # df_dedup adjust to the below..
+    df_dedup[:10].plot.bar(  y="Count", x="Host"  );    
     # df_dedup
     ```
+# Chapter 7  AIOps Use Case: Automated Baselining
+## Implementation of ARIMA and SARIMA
+### Creating sample data
+* Using shell to collect.
+```shell
+apt install -y sysstat
+pidstat 
+pidstat | grep 207 | awk '{ print $1, $8 }' >> cpu_utilization-data.csv
+pidstat -p 207 1
+Linux 5.15.89+ (cs-882156113206-default)        03/25/23        _x86_64_        (4 CPU)
+
+09:57:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+09:57:49        0       207    0.00    0.00    0.00    0.00    0.00     2  dockerd
+09:57:50        0       207    0.00    0.00    0.00    0.00    0.00     2  dockerd
+09:57:51        0       207    0.00    0.00    0.00    0.00    0.00     2  dockerd
+09:57:52        0       207    0.00    0.00    0.00    0.00    0.00     2  dockerd
+```
+* Using chatGPT to get data
+Using browser to website :https://chat.openai.com/chat .
+Using the below prompt:
+```shell
+Give me one year's sample which  two columns, date_time and cpu_utilization, and a total of 396 data points !
+```
