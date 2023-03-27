@@ -705,7 +705,7 @@ USDEVEMPRECWEB01,7/8/2021 16:35:18,CPU Utilization is  94% in Critical State on 
 AUPRDEMPRECAPP02,7/8/2021 16:38:08,CPU Utilization is  87% in Critical State on AUPRDEMPRECAPP02,OperatingSystem,Server,PlatformMonitoring-Tool
 UKPRDEMPRECWEB03,7/8/2021 19:05:54,CPU Utilization is  97% in Critical State on UKPRDEMPRECWEB03,OperatingSystem,Server,PlatformMonitoring-Tool
 USPRDPAYROLWEB04,7/8/2021 19:06:54,Memory Utilization is  77% in Warning State on PYROLL,OperatingSystem,Server,PlatformMonitoring-Tool
-dummy.us-x1.global.com,7/8/2021 19:28:44,The current status of Interface GigabitEthernet5/0/3 · DNK-X4 - Gi1/1/1 on the node dummy.us-x1.global.com with IP Address 10.10.10.1 is Down.,network availability,network ,network-monitoring-tool
+dummy.us-x1.global.com,7/8/2021 19:28:44,The current status of Interface GigabitEthernet5/0/3 ï¿½ DNK-X4 - Gi1/1/1 on the node dummy.us-x1.global.com with IP Address 10.10.10.1 is Down.,network availability,network ,network-monitoring-tool
 Global_HR,7/8/2021 19:30:44, Simulated transaction Check_Logout_Status failed for Client Session Simulation Global_HR,Transaction Monitoring,APPLICATION,apm-tool
 Global_HR,7/8/2021 19:31:29, Simulated transaction TSMS_Submit failed for Client Session Simulation Global_HR,Transaction Monitoring,APPLICATION,apm-tool
 Global_HR,7/8/2021 19:31:54, Simulated transaction Check_Login_Status failed for Client Session Simulation Global_HR,Transaction Monitoring,APPLICATION,apm-tool
