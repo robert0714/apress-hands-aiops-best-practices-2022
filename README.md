@@ -33,6 +33,8 @@ jupyter notebook Ch-6_Deduplication.ipynb
     ```
 # Chapter 7  AIOps Use Case: Automated Baselining
 ## Implementation of ARIMA and SARIMA
+* https://www.kaggle.com/code/sadeght/arima-sarima-simple-clear-analysis
+* https://www.kaggle.com/code/prakharprasad/time-series-iii-arima-sarima
 ### Creating sample data
 * Using shell to collect.
 ```shell
@@ -51,6 +53,12 @@ Linux 5.15.89+ (cs-882156113206-default)        03/25/23        _x86_64_        
 * Using chatGPT to get data
 Using browser to website :https://chat.openai.com/chat .
 Using the below prompt:
+
 ```shell
-Give me one year's sample which  two columns, date_time and cpu_utilization, and a total of 396 data points !
+Give me an example with daily data points for a full year from 2022/07/14, with two columns, date_time and cpu_utilization (multiplied by 100)  in CSV format !
 ```
+### Using Others
+* https://github.com/amcs1729/Predicting-cloud-CPU-usage-on-Azure-data
+* https://gist.github.com/fornasari12/ece7fa5f46c62a8c68db657ba96ca438
+* https://www.kaggle.com/datasets/boltzmannbrain/nab?select=README.md
+* https://www.projectpro.io/article/how-to-build-arima-model-in-python/544
